@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0174F6C1FEB3ADEF37E973D2 /* Pods_ChickenEggs_BubbleBlitz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659DCCD298926EEDF19A7AB9 /* Pods_ChickenEggs_BubbleBlitz.framework */; };
+		F6BEBD792F3744E600F5E3B7 /* GeoComplySDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6BEBD772F3744DF00F5E3B7 /* GeoComplySDK.xcframework */; };
+		F6BEBD7A2F3744E600F5E3B7 /* GeoComplySDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F6BEBD772F3744DF00F5E3B7 /* GeoComplySDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F6BEBD7B2F3744E600F5E3B7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F6BEBD7A2F3744E600F5E3B7 /* GeoComplySDK.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		659DCCD298926EEDF19A7AB9 /* Pods_ChickenEggs_BubbleBlitz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChickenEggs_BubbleBlitz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A188782231B7521A2431DAF1 /* Pods-ChickenEggs BubbleBlitz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChickenEggs BubbleBlitz.release.xcconfig"; path = "Target Support Files/Pods-ChickenEggs BubbleBlitz/Pods-ChickenEggs BubbleBlitz.release.xcconfig"; sourceTree = "<group>"; };
+		AE3ADFA76A3A2EE2127E8472 /* Pods-ChickenEggs BubbleBlitz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChickenEggs BubbleBlitz.debug.xcconfig"; path = "Target Support Files/Pods-ChickenEggs BubbleBlitz/Pods-ChickenEggs BubbleBlitz.debug.xcconfig"; sourceTree = "<group>"; };
+		CF5472422EDE2B9700D83016 /* ChickenEggs BubbleBlitz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChickenEggs BubbleBlitz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6BEBD772F3744DF00F5E3B7 /* GeoComplySDK.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:6YPTSWJK4P:Geocomply USA, Inc."; lastKnownFileType = wrapper.xcframework; path = GeoComplySDK.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F6BEBD762F3743D300F5E3B7 /* Exceptions for "ChickenEggs BubbleBlitz" folder in "ChickenEggs BubbleBlitz" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CF5472412EDE2B9700D83016 /* ChickenEggs BubbleBlitz */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CF5472442EDE2B9700D83016 /* ChickenEggs BubbleBlitz */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F6BEBD762F3743D300F5E3B7 /* Exceptions for "ChickenEggs BubbleBlitz" folder in "ChickenEggs BubbleBlitz" target */,
+			);
+			path = "ChickenEggs BubbleBlitz";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF54723F2EDE2B9700D83016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BEBD792F3744E600F5E3B7 /* GeoComplySDK.xcframework in Frameworks */,
+				0174F6C1FEB3ADEF37E973D2 /* Pods_ChickenEggs_BubbleBlitz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CED5FAFAB83A1B8E8119F15B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6BEBD782F3744DF00F5E3B7 /* GeocomplySDKs */,
+				659DCCD298926EEDF19A7AB9 /* Pods_ChickenEggs_BubbleBlitz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF5472392EDE2B9700D83016 = {
+			isa = PBXGroup;
+			children = (
+				CF5472442EDE2B9700D83016 /* ChickenEggs BubbleBlitz */,
+				CF5472432EDE2B9700D83016 /* Products */,
+				CFCF323254F0A5462CFBB6D2 /* Pods */,
+				CED5FAFAB83A1B8E8119F15B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF5472432EDE2B9700D83016 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF5472422EDE2B9700D83016 /* ChickenEggs BubbleBlitz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFCF323254F0A5462CFBB6D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE3ADFA76A3A2EE2127E8472 /* Pods-ChickenEggs BubbleBlitz.debug.xcconfig */,
+				A188782231B7521A2431DAF1 /* Pods-ChickenEggs BubbleBlitz.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F6BEBD782F3744DF00F5E3B7 /* GeocomplySDKs */ = {
+			isa = PBXGroup;
+			children = (
+				F6BEBD772F3744DF00F5E3B7 /* GeoComplySDK.xcframework */,
+			);
+			path = GeocomplySDKs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF5472412EDE2B9700D83016 /* ChickenEggs BubbleBlitz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF54724D2EDE2B9900D83016 /* Build configuration list for PBXNativeTarget "ChickenEggs BubbleBlitz" */;
+			buildPhases = (
+				473588285192DA4C34A06255 /* [CP] Check Pods Manifest.lock */,
+				CF54723E2EDE2B9700D83016 /* Sources */,
+				CF54723F2EDE2B9700D83016 /* Frameworks */,
+				CF5472402EDE2B9700D83016 /* Resources */,
+				CF5472FB2EDE2B9800D83017 /* Skillz Run Script */,
+				CB324DB0B02C6E560550DB76 /* [CP] Embed Pods Frameworks */,
+				F6BEBD7B2F3744E600F5E3B7 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CF5472442EDE2B9700D83016 /* ChickenEggs BubbleBlitz */,
+			);
+			name = "ChickenEggs BubbleBlitz";
+			productName = "ChickenEggs BubbleBlitz";
+			productReference = CF5472422EDE2B9700D83016 /* ChickenEggs BubbleBlitz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF54723A2EDE2B9700D83016 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				PBXFileSystemSynchronizedBuildFileExceptionSet = {
+					CF5472442EDE2B9700D83016 = (
+						"ChickenEggs BubbleBlitz/Info.plist",
+					);
+				};
+				TargetAttributes = {
+					CF5472412EDE2B9700D83016 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = CF54723D2EDE2B9700D83016 /* Build configuration list for PBXProject "ChickenEggs BubbleBlitz" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF5472392EDE2B9700D83016;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CF5472432EDE2B9700D83016 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF5472412EDE2B9700D83016 /* ChickenEggs BubbleBlitz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF5472402EDE2B9700D83016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		473588285192DA4C34A06255 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChickenEggs BubbleBlitz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB324DB0B02C6E560550DB76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChickenEggs BubbleBlitz/Pods-ChickenEggs BubbleBlitz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChickenEggs BubbleBlitz/Pods-ChickenEggs BubbleBlitz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChickenEggs BubbleBlitz/Pods-ChickenEggs BubbleBlitz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF5472FB2EDE2B9800D83017 /* Skillz Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Skillz Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ -e \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Skillz.framework/postprocess.sh\" ]; then\n  /bin/sh \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Skillz.framework/postprocess.sh\"\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF54723E2EDE2B9700D83016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CF54724B2EDE2B9900D83016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 67643FHFHY;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF54724C2EDE2B9900D83016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 67643FHFHY;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF54724E2EDE2B9900D83016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE3ADFA76A3A2EE2127E8472 /* Pods-ChickenEggs BubbleBlitz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67643FHFHY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ChickenEggs BubbleBlitz/Info.plist";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Media library access is used for game music and effects.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth is used for competing with nearby players.";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Calendar access is used for scheduling tournament reminders.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is used for profile pictures and verification.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "Contacts access is used for inviting friends to play.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This game uses location to verify eligibility for cash tournaments.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This game uses location to verify eligibility for cash tournaments.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This game uses location to verify eligibility for cash tournaments.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone is used for video capture features.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Motion access is used to improve game physics and anti-cheat.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo library access is used for profile pictures.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChickenEggs-BubbleBlitz1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CF54724F2EDE2B9900D83016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A188782231B7521A2431DAF1 /* Pods-ChickenEggs BubbleBlitz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67643FHFHY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ChickenEggs BubbleBlitz/Info.plist";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Media library access is used for game music and effects.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth is used for competing with nearby players.";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Calendar access is used for scheduling tournament reminders.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is used for profile pictures and verification.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "Contacts access is used for inviting friends to play.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This game uses location to verify eligibility for cash tournaments.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This game uses location to verify eligibility for cash tournaments.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This game uses location to verify eligibility for cash tournaments.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone is used for video capture features.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Motion access is used to improve game physics and anti-cheat.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo library access is used for profile pictures.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChickenEggs-BubbleBlitz1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF54723D2EDE2B9700D83016 /* Build configuration list for PBXProject "ChickenEggs BubbleBlitz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF54724B2EDE2B9900D83016 /* Debug */,
+				CF54724C2EDE2B9900D83016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF54724D2EDE2B9900D83016 /* Build configuration list for PBXNativeTarget "ChickenEggs BubbleBlitz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF54724E2EDE2B9900D83016 /* Debug */,
+				CF54724F2EDE2B9900D83016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF54723A2EDE2B9700D83016 /* Project object */;
+}
