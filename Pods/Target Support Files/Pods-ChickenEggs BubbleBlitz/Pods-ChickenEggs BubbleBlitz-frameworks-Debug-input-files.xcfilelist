@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-ChickenEggs BubbleBlitz/Pods-ChickenEggs BubbleBlitz-frameworks.sh
+${PODS_ROOT}/Skillz/Skillz.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/Apple-Cocoapod-KochavaCore/KochavaCore.framework/KochavaCore
+${PODS_XCFRAMEWORKS_BUILD_DIR}/Apple-Cocoapod-KochavaTracker/KochavaTracker.framework/KochavaTracker
+${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenTelemetrySwiftApi/OpenTelemetryApi.framework/OpenTelemetryApi
+${PODS_XCFRAMEWORKS_BUILD_DIR}/RiveRuntime/RiveRuntime.framework/RiveRuntime

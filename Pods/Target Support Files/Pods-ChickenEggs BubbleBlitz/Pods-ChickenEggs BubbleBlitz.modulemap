@@ -1,0 +1,6 @@
+framework module Pods_ChickenEggs_BubbleBlitz {
+  umbrella header "Pods-ChickenEggs BubbleBlitz-umbrella.h"
+
+  export *
+  module * { export * }
+}
