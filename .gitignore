@@ -1,1 +1,3 @@
-Pods/**/KochavaCore.swiftmodule/**
+# Fix long path for KochavaTracker
+Pods/**/KochavaTracker.swiftmodule/**
+Pods/**/KochavaTracker.swiftinterface
