@@ -1397,7 +1397,7 @@ struct MainGameView: View {
           
           // Add some random offset to make multiple eggs visible
           let randomOffset = CGFloat.random(in: -20...20)
-          let modifiedStartPosition = CGPoint(x: eggStartPosition.x + randomOffset, y: eggStartPosition.y + randomOffset)
+          let _ = CGPoint(x: eggStartPosition.x + randomOffset, y: eggStartPosition.y + randomOffset)
           
           print("Animating collected egg to header position: \(headerEggPosition)")
           
@@ -1762,9 +1762,8 @@ struct MainGameView: View {
             }
         }
         
-        // Add some rotation for visual effect
         withAnimation(.linear(duration: animationDuration)) {
-            if let index = flyingEggs.firstIndex(where: { $0.id == flyingEgg.id }) {
+            if let _ = flyingEggs.firstIndex(where: { $0.id == flyingEgg.id }) {
                 // Just for visual effect, we can add a subtle scale change
             }
         }
@@ -4749,7 +4748,7 @@ struct TriangleLevelView: View {
                     let ballsInRow = 3 - rowIndex // 3, 2, 1 balls per row
                     let yOffset = CGFloat(rowIndex) * itemSize * 1.5
                     let totalWidth = CGFloat(ballsInRow) * itemSize * 1.2
-                    let startX = (geometry.size.width - totalWidth) / 2
+                    let _ = (geometry.size.width - totalWidth) / 2
                     
                     HStack(spacing: itemSize * 0.2) {
                         ForEach(0..<ballsInRow, id: \.self) { positionIndex in
@@ -4844,7 +4843,7 @@ struct HexagonLevelView: View {
  
                         ZStack {
                             // Check for egg first
-                            if let egg = eggPositions.first(where: {
+                            if let _ = eggPositions.first(where: {
                                 $0.lineIndex == lineIndex &&
                                 $0.positionIndex == positionIndex &&
                                 $0.isVisible && !$0.isCollected
@@ -4976,7 +4975,7 @@ struct CircleLevelView: View {
  
                         ZStack {
                             // Check for egg first
-                            if let egg = eggPositions.first(where: {
+                            if let _ = eggPositions.first(where: {
                                 $0.lineIndex == lineIndex &&
                                 $0.positionIndex == positionIndex &&
                                 $0.isVisible && !$0.isCollected
