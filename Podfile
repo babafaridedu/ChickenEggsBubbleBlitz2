@@ -11,6 +11,7 @@ target 'ChickenEggs BubbleBlitz' do
 end
 
 post_install do |installer|
+bitcode_strip_path = `xcrun --find bitcode_strip`.strip
   installer.pods_project.targets.each do |target|
     target.build_configurations.each do |config|
       config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '14.0'
@@ -20,4 +21,11 @@ post_install do |installer|
       config.build_settings['ENABLE_BITCODE'] = 'NO'
     end
   end
+
+# Удаляем bitcode только из KochavaCore
+  Dir.glob("Pods/**/KochavaCore.framework/KochavaCore").each do |binary|
+    puts "Stripping bitcode from #{binary}"
+    system("#{bitcode_strip_path} #{binary} -r -o #{binary}")
+  end
+
 end
