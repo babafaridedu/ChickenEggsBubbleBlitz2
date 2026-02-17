@@ -438,6 +438,7 @@
 				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
+                ENABLE_BITCODE = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ChickenEggs BubbleBlitz/Info.plist";
 				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Media library access is used for game music and effects.";
