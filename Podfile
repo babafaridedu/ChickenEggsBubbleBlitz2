@@ -22,10 +22,13 @@ bitcode_strip_path = `xcrun --find bitcode_strip`.strip
     end
   end
 
-# Удаляем bitcode только из KochavaCore
-  Dir.glob("Pods/**/KochavaCore.framework/KochavaCore").each do |binary|
-    puts "Stripping bitcode from #{binary}"
-    system("#{bitcode_strip_path} #{binary} -r -o #{binary}")
+# Удаляем bitcode только из Kochava фреймворков
+  Dir.glob("Pods/**/*Kochava*.framework/*").each do |file|
+    next unless File.file?(file)
+    next if File.extname(file) != "" # пропускаем plist и т.п.
+
+    puts "Stripping bitcode from #{file}"
+    system("#{bitcode_strip_path} #{file} -r -o #{file}")
   end
 
 end
