@@ -5,7 +5,7 @@ PODS:
   - AppLovinSDK (13.5.1)
   - OpenTelemetrySwiftApi (1.6.0)
   - RiveRuntime (5.10.0)
-  - Skillz (2025.0.50):
+  - Skillz (2025.1.349):
     - Apple-Cocoapod-KochavaTracker (= 6.1.1)
     - AppLovinSDK (= 13.5.1)
     - OpenTelemetrySwiftApi (= 1.6.0)
