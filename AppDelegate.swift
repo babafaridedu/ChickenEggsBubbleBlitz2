@@ -28,7 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, SkillzDelegate {
         // We'll use .sandbox for testing; change to .production when ready to publish
         Skillz.skillzInstance().initWithGameId("97952", for: self, with: .production, allowExit: false)
         
-        /// print("Skillz SDK initialized in SANDBOX mode")
+        // print("Skillz SDK initialized in SANDBOX mode")
         
         return true
     }
