@@ -12,11 +12,11 @@
 		<key>allowExit</key>
 		<false/>
 		<key>environment</key>
-		<string>Production</string>
+		<string>production</string>
 		<key>gameId</key>
 		<string>97952</string>
 		<key>orientation</key>
-		<string>Portrait</string>
+		<string>portrait</string>
 	</dict>
 </dict>
 </plist>
