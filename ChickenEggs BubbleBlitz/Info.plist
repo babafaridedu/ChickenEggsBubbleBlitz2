@@ -12,7 +12,7 @@
 		<key>allowExit</key>
 		<false/>
 		<key>environment</key>
-		<string>Sandbox</string>
+		<string>Production</string>
 		<key>gameId</key>
 		<string>97952</string>
 		<key>orientation</key>
